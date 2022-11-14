@@ -172,7 +172,7 @@ task runHindiIndia {
     }
     finalizedBy 'run'
 }
-task runThaiThailand {
+task runInThaiThailand {
     doFirst {
         applicationDefaultJvmArgs = ['-Duser.language=th_TH']
     }
